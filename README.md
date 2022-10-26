@@ -32,3 +32,7 @@ You guessed it, [displayplacer](https://github.com/jakehilborn/displayplacer).
     laptop-placer --pos below
 
 ![image](https://user-images.githubusercontent.com/8545435/198120329-3a215189-35a0-45d3-9441-6b531934901b.png)
+
+## Limitations
+
+Laptop Placer is designed to be used for laptops running macOS and connected to **one** external monitor
