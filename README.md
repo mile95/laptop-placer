@@ -17,19 +17,18 @@ You guessed it, [displayplacer](https://github.com/jakehilborn/displayplacer).
 ## Installation
 
     git clone git@github.com:mile95/laptop-placer.git
+    cd laptop-placer
+    pip3 install .
 
 ## Usage
 
-    cd laptop-placer
-    python3 laptop_placer.py --pos left
+    laptop-placer --pos left
 ![image](https://user-images.githubusercontent.com/8545435/198119890-88a4d866-7275-4125-b8e4-2fc3f5cdee7e.png)
 
-    cd laptop-placer
-    python3 laptop_placer.py --pos right
+    laptop-placer --pos right
 
 ![image](https://user-images.githubusercontent.com/8545435/198120166-656b67d0-a919-4824-9f77-9b485c2b88b5.png)
 
-    cd laptop-placer
-    python3 laptop_placer.py --pos below
+    laptop-placer --pos below
 
 ![image](https://user-images.githubusercontent.com/8545435/198120329-3a215189-35a0-45d3-9441-6b531934901b.png)
