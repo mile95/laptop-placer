@@ -81,7 +81,12 @@ def update_placement(
     scaling: str,
     degree: str,
 ) -> None:
-    UPDATE_COMMAND = f"id:{id} res:{res_x}x{res_y} hz:{hz} color_depth:{color_depth} scaling:{scaling} origin:({origin[0]},{origin[1]}) degree:{degree}"
+    if hz == "N/A":
+        UPDATE_COMMAND = f"id:{id} res:{res_x}x{res_y} color_depth:{color_depth} scaling:{scaling} origin:({origin[0]},{origin[1]}) degree:{degree}"
+    else:
+        UPDATE_COMMAND = f"id:{id} res:{res_x}x{res_y} hz:{hz} color_depth:{color_depth} scaling:{scaling} origin:({origin[0]},{origin[1]}) degree:{degree}"
+
+    print(UPDATE_COMMAND)
     result = run(
         ["displayplacer", UPDATE_COMMAND],
         stdout=PIPE,
