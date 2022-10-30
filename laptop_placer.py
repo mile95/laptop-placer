@@ -3,6 +3,9 @@ from subprocess import PIPE, run
 from typing import List
 
 
+VALID_SIDES = ["right", "left", "below"]
+
+
 def get_external_screen_info(raw_display_info: List[str]) -> dict:
     external_screen_candidates = [r for r in raw_display_info if "external" in r]
     if len(external_screen_candidates) > 1:
@@ -98,11 +101,22 @@ def update_placement(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Command line tool for moving the laptop in relation to the external monitor"
+        description="Command line tool for moving the laptop to the specified side of the external monitor"
     )
-    parser.add_argument("--pos", type=str, required=True)
+    parser.add_argument(
+        "--side",
+        type=str,
+        required=True,
+        help="Side of the external monitor to move the laptop to. [right, left, below]",
+    )
     args = parser.parse_args()
-    # TODO: Verify that pos is one of [right, left, below]
+
+    if args.side not in VALID_SIDES:
+        print(
+            f"{args.side} is not a valid side. Please set side to one of [right, left, below]"
+        )
+        return 1
+
     raw_display_info = get_display_information()
     build_in_screen_info = get_build_in_screen_info(raw_display_info)
     external_screen_info = get_external_screen_info(raw_display_info)
