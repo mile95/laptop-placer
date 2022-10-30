@@ -7,7 +7,8 @@ VALID_SIDES = ["right", "left", "below"]
 
 
 def get_external_screen_info(raw_display_info: List[str]) -> dict:
-    external_screen_candidates = [r for r in raw_display_info if "external" in r]
+    external_screen_candidates = [
+        r for r in raw_display_info if "external" in r]
     if len(external_screen_candidates) > 1:
         assert False
         # TODO: Raise exception that we cant identify external monitor
@@ -85,12 +86,23 @@ def update_placement(
     degree: str,
 ) -> None:
     if hz == "N/A":
-        UPDATE_COMMAND = f"id:{id} res:{res_x}x{res_y} color_depth:{color_depth} scaling:{scaling} origin:({origin[0]},{origin[1]}) degree:{degree}"
+        UPDATE_COMMAND = (f"id:{id} "
+                          f"res:{res_x}x{res_y} "
+                          f"color_depth:{color_depth} "
+                          f"scaling:{scaling} "
+                          f"origin:({origin[0]},{origin[1]}) "
+                          f"degree:{degree}")
     else:
-        UPDATE_COMMAND = f"id:{id} res:{res_x}x{res_y} hz:{hz} color_depth:{color_depth} scaling:{scaling} origin:({origin[0]},{origin[1]}) degree:{degree}"
+        UPDATE_COMMAND = (f"id:{id} "
+                          f"res:{res_x}x{res_y} "
+                          f"hz:{hz} "
+                          f"color_depth:{color_depth} "
+                          f"scaling:{scaling} "
+                          f"origin:({origin[0]},{origin[1]}) "
+                          f"degree:{degree}")
 
     print(UPDATE_COMMAND)
-    result = run(
+    run(
         ["displayplacer", UPDATE_COMMAND],
         stdout=PIPE,
         stderr=PIPE,
@@ -101,19 +113,24 @@ def update_placement(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Command line tool for moving the laptop to the specified side of the external monitor"
+        description=(
+            "Command line tool for moving the laptop to the specified "
+            "side of the external monitor"
+        )
     )
     parser.add_argument(
         "--side",
         type=str,
         required=True,
-        help="Side of the external monitor to move the laptop to. [right, left, below]",
+        help=("Side of the external monitor to move the laptop to."
+              "Needs to be one of [right, left, below]"),
     )
     args = parser.parse_args()
 
     if args.side not in VALID_SIDES:
         print(
-            f"{args.side} is not a valid side. Please set side to one of [right, left, below]"
+            f"{args.side} is not a valid side. "
+            "Please set side to one of [right, left, below]"
         )
         return 1
 

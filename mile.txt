@@ -1,0 +1,184 @@
+Persistent screen id: AD9697CF-A016-4D5A-9ADD-5D7DDCAE3D8D
+Contextual screen id: 2
+Type: 34 inch external screen
+Resolution: 3440x1440
+Hertz: 60
+Color Depth: 8
+Scaling:off
+Origin: (0,0) - main display
+Rotation: 0
+Resolutions for rotation 0:
+  mode 0: res:800x600 hz:75 color_depth:8 scaling:on
+  mode 1: res:800x600 hz:75 color_depth:8
+  mode 2: res:800x600 hz:72 color_depth:8
+  mode 3: res:800x600 hz:60 color_depth:8
+  mode 4: res:800x600 hz:60 color_depth:8 scaling:on
+  mode 5: res:800x600 hz:56 color_depth:8
+  mode 6: res:800x600 hz:30 color_depth:8 scaling:on
+  mode 7: res:840x525 hz:60 color_depth:8 scaling:on
+  mode 8: res:860x720 hz:60 color_depth:8 scaling:on
+  mode 9: res:960x540 hz:60 color_depth:8 scaling:on
+  mode 10: res:960x540 hz:50 color_depth:8 scaling:on
+  mode 11: res:1024x768 hz:75 color_depth:8
+  mode 12: res:1024x768 hz:75 color_depth:8
+  mode 13: res:1024x768 hz:70 color_depth:8
+  mode 14: res:1024x768 hz:60 color_depth:8
+  mode 15: res:1024x768 hz:30 color_depth:8
+  mode 16: res:1280x536 hz:75 color_depth:8
+  mode 17: res:1280x536 hz:60 color_depth:8
+  mode 18: res:1280x536 hz:30 color_depth:8
+  mode 19: res:1280x540 hz:60 color_depth:8 scaling:on
+  mode 20: res:1280x540 hz:50 color_depth:8 scaling:on
+  mode 21: res:1280x720 hz:60 color_depth:8
+  mode 22: res:1280x720 hz:50 color_depth:8
+  mode 23: res:1280x960 hz:75 color_depth:8
+  mode 24: res:1280x960 hz:60 color_depth:8
+  mode 25: res:1280x960 hz:30 color_depth:8
+  mode 26: res:1280x1024 hz:75 color_depth:8
+  mode 27: res:1280x1024 hz:60 color_depth:8
+  mode 28: res:1344x562 hz:75 color_depth:8
+  mode 29: res:1344x562 hz:60 color_depth:8
+  mode 30: res:1344x562 hz:30 color_depth:8
+  mode 31: res:1344x1008 hz:75 color_depth:8
+  mode 32: res:1344x1008 hz:60 color_depth:8
+  mode 33: res:1344x1008 hz:30 color_depth:8
+  mode 34: res:1440x900 hz:60 color_depth:8
+  mode 35: res:1600x670 hz:75 color_depth:8
+  mode 36: res:1600x670 hz:60 color_depth:8
+  mode 37: res:1600x670 hz:30 color_depth:8
+  mode 38: res:1600x1200 hz:75 color_depth:8
+  mode 39: res:1600x1200 hz:60 color_depth:8
+  mode 40: res:1600x1200 hz:30 color_depth:8
+  mode 41: res:1680x1050 hz:60 color_depth:8
+  mode 42: res:1720x720 hz:75 color_depth:8
+  mode 43: res:1720x720 hz:75 color_depth:8 scaling:on
+  mode 44: res:1720x720 hz:60 color_depth:8
+  mode 45: res:1720x720 hz:60 color_depth:8 scaling:on
+  mode 46: res:1720x720 hz:30 color_depth:8 scaling:on
+  mode 47: res:1720x720 hz:30 color_depth:8
+  mode 48: res:1720x1440 hz:60 color_depth:8
+  mode 49: res:1920x804 hz:75 color_depth:8
+  mode 50: res:1920x804 hz:60 color_depth:8
+  mode 51: res:1920x804 hz:30 color_depth:8
+  mode 52: res:1920x1080 hz:60 color_depth:8
+  mode 53: res:1920x1080 hz:50 color_depth:8
+  mode 54: res:2048x858 hz:75 color_depth:8
+  mode 55: res:2048x858 hz:60 color_depth:8
+  mode 56: res:2048x858 hz:30 color_depth:8
+  mode 57: res:2560x1080 hz:60 color_depth:8
+  mode 58: res:2560x1080 hz:50 color_depth:8
+  mode 59: res:3440x1440 hz:75 color_depth:8
+  mode 60: res:3440x1440 hz:60 color_depth:8 <-- current mode
+  mode 61: res:3440x1440 hz:30 color_depth:8
+  mode 62: res:800x600 hz:72 color_depth:8 scaling:on
+  mode 63: res:800x600 hz:56 color_depth:8 scaling:on
+  mode 64: res:1024x768 hz:75 color_depth:8 scaling:on
+  mode 65: res:1024x768 hz:75 color_depth:8 scaling:on
+  mode 66: res:1024x768 hz:70 color_depth:8 scaling:on
+  mode 67: res:1024x768 hz:60 color_depth:8 scaling:on
+  mode 68: res:1024x768 hz:30 color_depth:8 scaling:on
+  mode 69: res:1280x536 hz:75 color_depth:8 scaling:on
+  mode 70: res:1280x536 hz:60 color_depth:8 scaling:on
+  mode 71: res:1280x536 hz:30 color_depth:8 scaling:on
+  mode 72: res:1280x720 hz:60 color_depth:8 scaling:on
+  mode 73: res:1280x720 hz:50 color_depth:8 scaling:on
+  mode 74: res:1280x960 hz:75 color_depth:8 scaling:on
+  mode 75: res:1280x960 hz:60 color_depth:8 scaling:on
+  mode 76: res:1280x960 hz:30 color_depth:8 scaling:on
+  mode 77: res:1280x1024 hz:75 color_depth:8 scaling:on
+  mode 78: res:1280x1024 hz:60 color_depth:8 scaling:on
+  mode 79: res:1344x562 hz:75 color_depth:8 scaling:on
+  mode 80: res:1344x562 hz:60 color_depth:8 scaling:on
+  mode 81: res:1344x562 hz:30 color_depth:8 scaling:on
+  mode 82: res:1344x1008 hz:75 color_depth:8 scaling:on
+  mode 83: res:1344x1008 hz:60 color_depth:8 scaling:on
+  mode 84: res:1344x1008 hz:30 color_depth:8 scaling:on
+  mode 85: res:1440x900 hz:60 color_depth:8 scaling:on
+  mode 86: res:1600x670 hz:75 color_depth:8 scaling:on
+  mode 87: res:1600x670 hz:60 color_depth:8 scaling:on
+  mode 88: res:1600x670 hz:30 color_depth:8 scaling:on
+  mode 89: res:1600x1200 hz:75 color_depth:8 scaling:on
+  mode 90: res:1600x1200 hz:60 color_depth:8 scaling:on
+  mode 91: res:1600x1200 hz:30 color_depth:8 scaling:on
+  mode 92: res:1680x1050 hz:60 color_depth:8 scaling:on
+  mode 93: res:1720x1440 hz:60 color_depth:8 scaling:on
+  mode 94: res:1920x804 hz:75 color_depth:8 scaling:on
+  mode 95: res:1920x804 hz:60 color_depth:8 scaling:on
+  mode 96: res:1920x804 hz:30 color_depth:8 scaling:on
+  mode 97: res:1920x1080 hz:60 color_depth:8 scaling:on
+  mode 98: res:1920x1080 hz:50 color_depth:8 scaling:on
+  mode 99: res:2048x858 hz:75 color_depth:8 scaling:on
+  mode 100: res:2048x858 hz:60 color_depth:8 scaling:on
+  mode 101: res:2048x858 hz:30 color_depth:8 scaling:on
+  mode 102: res:2560x1080 hz:60 color_depth:8 scaling:on
+  mode 103: res:2560x1080 hz:50 color_depth:8 scaling:on
+  mode 104: res:400x300 hz:75 color_depth:8 scaling:on
+  mode 105: res:400x300 hz:72 color_depth:8 scaling:on
+  mode 106: res:400x300 hz:60 color_depth:8 scaling:on
+  mode 107: res:400x300 hz:56 color_depth:8 scaling:on
+  mode 108: res:512x384 hz:75 color_depth:8 scaling:on
+  mode 109: res:512x384 hz:75 color_depth:8 scaling:on
+  mode 110: res:512x384 hz:70 color_depth:8 scaling:on
+  mode 111: res:512x384 hz:60 color_depth:8 scaling:on
+  mode 112: res:512x384 hz:60 color_depth:8 scaling:on
+  mode 113: res:512x384 hz:30 color_depth:8 scaling:on
+  mode 114: res:640x360 hz:60 color_depth:8 scaling:on
+  mode 115: res:640x360 hz:60 color_depth:8 scaling:on
+  mode 116: res:640x360 hz:50 color_depth:8 scaling:on
+  mode 117: res:640x480 hz:75 color_depth:8 scaling:on
+  mode 118: res:640x480 hz:60 color_depth:8 scaling:on
+  mode 119: res:640x480 hz:30 color_depth:8 scaling:on
+  mode 120: res:640x480 hz:75 color_depth:8
+  mode 121: res:640x480 hz:72 color_depth:8
+  mode 122: res:640x480 hz:60 color_depth:8
+  mode 123: res:640x480 hz:60 color_depth:8
+  mode 124: res:640x512 hz:75 color_depth:8 scaling:on
+  mode 125: res:640x512 hz:60 color_depth:8 scaling:on
+  mode 126: res:672x504 hz:75 color_depth:8 scaling:on
+  mode 127: res:672x504 hz:60 color_depth:8 scaling:on
+  mode 128: res:672x504 hz:30 color_depth:8 scaling:on
+  mode 129: res:720x450 hz:60 color_depth:8 scaling:on
+  mode 130: res:720x480 hz:60 color_depth:8
+  mode 131: res:720x480 hz:60 color_depth:8
+  mode 132: res:720x576 hz:50 color_depth:8
+  mode 133: res:800x335 hz:75 color_depth:8 scaling:on
+  mode 134: res:800x335 hz:60 color_depth:8 scaling:on
+  mode 135: res:800x335 hz:30 color_depth:8 scaling:on
+  mode 136: res:860x360 hz:75 color_depth:8 scaling:on
+  mode 137: res:860x360 hz:60 color_depth:8 scaling:on
+  mode 138: res:860x360 hz:30 color_depth:8 scaling:on
+  mode 139: res:960x402 hz:75 color_depth:8 scaling:on
+  mode 140: res:960x402 hz:60 color_depth:8 scaling:on
+  mode 141: res:960x402 hz:30 color_depth:8 scaling:on
+  mode 142: res:960x540 hz:60 color_depth:8 scaling:on
+  mode 143: res:1024x429 hz:75 color_depth:8 scaling:on
+  mode 144: res:1024x429 hz:60 color_depth:8 scaling:on
+  mode 145: res:1024x429 hz:30 color_depth:8 scaling:on
+  mode 146: res:1024x768 hz:60 color_depth:8
+  mode 147: res:1280x540 hz:60 color_depth:8 scaling:on
+  mode 148: res:1280x540 hz:60 color_depth:8 scaling:on
+  mode 149: res:1280x720 hz:60 color_depth:8
+  mode 150: res:1920x1080 hz:60 color_depth:8
+  mode 151: res:2560x1080 hz:60 color_depth:8
+  mode 152: res:2560x1080 hz:60 color_depth:8
+
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Type: MacBook built in screen
+Resolution: 1680x1050
+Hertz: 60
+Color Depth: 8
+Scaling:on
+Origin: (-1680,330)
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Resolutions for rotation 0:
+  mode 0: res:1024x640 hz:60 color_depth:8 scaling:on
+  mode 1: res:1280x800 hz:60 color_depth:8 scaling:on
+  mode 2: res:1440x900 hz:60 color_depth:8 scaling:on
+  mode 3: res:1680x1050 hz:60 color_depth:8 scaling:on <-- current mode
+  mode 4: res:2048x1280 hz:60 color_depth:8
+  mode 5: res:2560x1600 hz:60 color_depth:8
+
+Execute the command below to set your screens to the current arrangement:
+
+displayplacer "id:AD9697CF-A016-4D5A-9ADD-5D7DDCAE3D8D res:3440x1440 hz:60 color_depth:8 scaling:off origin:(0,0) degree:0" "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1680x1050 hz:60 color_depth:8 scaling:on origin:(-1680,330) degree:0"
