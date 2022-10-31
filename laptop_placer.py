@@ -36,9 +36,9 @@ def get_build_in_screen_info(raw_display_info: List[str]) -> dict:
 
 
 def compute_new_origin(
-    pos: str, build_in_screen_info: dict, external_screen_info: dict
+    side: str, build_in_screen_info: dict, external_screen_info: dict
 ) -> tuple:
-    if pos == "left":
+    if side == "left":
         origin_x = 0
         origin_y = int(
             abs(
@@ -46,7 +46,7 @@ def compute_new_origin(
                 - int(build_in_screen_info["res_y"])
             )
         )
-    elif pos == "right":
+    elif side == "right":
         origin_x = external_screen_info["res_x"]
         origin_y = int(
             abs(
@@ -54,7 +54,7 @@ def compute_new_origin(
                 - int(build_in_screen_info["res_y"])
             )
         )
-    elif pos == "below":
+    elif side == "below":
         origin_x = int(
             abs(
                 int(external_screen_info["res_x"]) / 2
@@ -138,7 +138,7 @@ def main() -> int:
     build_in_screen_info = get_build_in_screen_info(raw_display_info)
     external_screen_info = get_external_screen_info(raw_display_info)
     new_origin = compute_new_origin(
-        args.pos, build_in_screen_info, external_screen_info
+        args.side, build_in_screen_info, external_screen_info
     )
     update_placement(
         new_origin,
